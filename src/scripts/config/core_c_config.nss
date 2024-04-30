@@ -258,4 +258,4 @@ const int INCLUDE_NPC_IN_AOE_ROSTER = TRUE;
 
 /// This is the welcome message that will be sent to all players and DMs that
 /// log into the module.
-const string WELCOME_MESSAGE = "Welcome to the Core Framework.";
+const string WELCOME_MESSAGE = "Welcome to Sam's.";
