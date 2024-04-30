@@ -87,6 +87,7 @@ void OnLibraryLoad()
         RegisterEventScript(oPlugin, MODULE_EVENT_ON_MODULE_LOAD, "x3_mod_def_load,x2_mod_def_load", 9.0);
         RegisterEventScript(oPlugin, MODULE_EVENT_ON_MODULE_LOAD, "sha_on_modload", 6.0);
         RegisterEventScript(oPlugin, MODULE_EVENT_ON_HEARTBEAT, "sha_on_mod_hbeat", 1.0);
+        RegisterEventScript(oPlugin, MODULE_EVENT_ON_HEARTBEAT, "sha_clock", 8.0);
         RegisterEventScript(oPlugin, MODULE_EVENT_ON_PLAYER_RESPAWN, "sha_mod_respawn", 4.0);
         RegisterEventScript(oPlugin, MODULE_EVENT_ON_PLAYER_RESPAWN, "subrace_OnPlayerRespawn", 3.0);
         RegisterEventScript(oPlugin, MODULE_EVENT_ON_CLIENT_ENTER, "subrace_OnClientEnter", 9.0);
