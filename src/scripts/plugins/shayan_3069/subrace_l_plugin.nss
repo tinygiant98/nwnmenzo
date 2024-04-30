@@ -8,6 +8,7 @@
 #include "core_i_framework"
 #include "util_i_chat"
 
+#include "subrace_c_config"
 #include "sha_subr_methds"
 #include "x2_inc_intweapon"
 
