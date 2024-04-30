@@ -80,6 +80,7 @@ void OnLibraryLoad()
         RegisterEventScript(oPlugin, MODULE_EVENT_ON_PLAYER_REST,          "x2_mod_def_rest",  EVENT_PRIORITY_DEFAULT);
         RegisterEventScript(oPlugin, MODULE_EVENT_ON_PLAYER_UNEQUIP_ITEM,  "x2_mod_def_unequ", 2.0);
         RegisterEventScript(oPlugin, MODULE_EVENT_ON_UNACQUIRE_ITEM,       "x2_mod_def_unaqu", 2.0);
+        RegisterEventScript(oPlugin, MODULE_EVENT_ON_HEARTBEAT,            "x3_mod_def_hb",    2.0);
 
         RegisterEventScript(oPlugin, CREATURE_EVENT_ON_BLOCKED,            "nw_c2_defaulte",   EVENT_PRIORITY_DEFAULT);
         RegisterEventScript(oPlugin, CREATURE_EVENT_ON_COMBAT_ROUND_END,   "nw_c2_default3",   EVENT_PRIORITY_DEFAULT);

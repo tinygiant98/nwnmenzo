@@ -1,0 +1,5 @@
+  // NWN v1.69 OnClientEnter Hook Script
+  //:://///////////////////////////////////////////////////////////////////////////
+  void main()
+  { ExecuteScript( "sha_on_cl_enter", OBJECT_SELF);
+  }
