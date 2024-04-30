@@ -1,10 +1,13 @@
- # Notes
+ # Notes - 
+ `04/30/2024` @tinygiant98 reconfigured repo to function proper!!!!!
 
  ~~The folder "Spaghetti-scripts is the mass collection of scripts - old and new that are for updating/editiing/chopping.~~
  ```Issues``` is merely lists of scripts and what is their status.. 
  
- ```script review``` label to be review/revised/rejected. Scripts that were apart of the old filesystem and go with the new mod
-  ```Core framework``` is the modified for menzo version of the coreframework and they are the scripts to be installed to the mod. 
+~~```script review``` label to be review/revised/rejected. Scripts that were apart of the old filesystem and go with the new mod
+  ```Core framework``` is the modified for menzo version of the coreframework and they are the scripts to be installed to the mod~~
+  // 04/30/2024 reconfigured 
+  
   
 
 
