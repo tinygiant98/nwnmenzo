@@ -12,7 +12,6 @@
 #include "sha_subr_methds"
 #include "x2_inc_intweapon"
 
-
 void subrace_OnModuleLoad()
 {
 
@@ -97,11 +96,12 @@ void OnLibraryLoad()
         RegisterEventScript(oPlugin, MODULE_EVENT_ON_PLAYER_LEVEL_UP, "subrace_OnPlayerLevelup", 5.0);
         RegisterEventScript(oPlugin, MODULE_EVENT_ON_PLAYER_EQUIP_ITEM, "subrace_OnPlayerEquip", 5.0);
         RegisterEventScript(oPlugin, MODULE_EVENT_ON_SPELLHOOK, "sha_spellhooks", 9.0);
+        RegisterEventScript(oPlugin, CREATURE_EVENT_ON_DEATH, "sha_xpsystem", EVENT_PRIORITY_ONLY);
 
         RegisterEventScript(oPlugin, CHAT_PREFIX + "!subrace", "subrace_OnPlayerChat");
 
         int n;
-        RegiseterLibraryScript("subrace_OnModuleLoad", n++);
+        RegisterLibraryScript("subrace_OnModuleLoad", n++);
         RegisterLibraryScript("subrace_OnPlayerChat", n++);
         RegisterLibraryScript("subrace_OnClientEnter", n++);
         RegisterLibraryScript("subrace_OnClientLeave", n++);
